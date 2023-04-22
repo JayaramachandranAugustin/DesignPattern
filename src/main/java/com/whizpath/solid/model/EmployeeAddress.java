@@ -1,4 +1,4 @@
-package com.whizpath.solid.service;
+package com.whizpath.solid.model;
 
 public class EmployeeAddress {
     private String addressLine1;

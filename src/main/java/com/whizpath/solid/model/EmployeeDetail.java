@@ -1,6 +1,5 @@
 package com.whizpath.solid.model;
 
-import com.whizpath.solid.service.EmployeeAddress;
 import lombok.Data;
 
 import java.time.LocalDate;

@@ -1,6 +1,6 @@
 package com.whizpath.solid.user;
 
-public class ManagerExpense implements EmployeeExpense{
+public class ManagerExpense implements EmployeeExpense, FullTimeEmployeeExpense{
 
     @Override
     public long monthlySalary(int month, int year) {
@@ -8,7 +8,7 @@ public class ManagerExpense implements EmployeeExpense{
     }
 
     @Override
-    public long getPerformancePay(int year) {
+    public long getPerformancePay(int month, int year) {
         return 1500;
     }
 }
